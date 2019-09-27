@@ -3,7 +3,7 @@
 .classpath
 .project
 *.class
-/.settings/ 
+/.settings/
 *.prefs
 *.component
 *.lst
