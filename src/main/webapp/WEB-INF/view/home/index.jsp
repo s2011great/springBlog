@@ -22,8 +22,8 @@
 <meta name="keywords" content="风吟,风吟博客,Java博客,SSM博客,言曌,言曌博客" />
 <title>风吟博客-莫问收获，但问耕耘。</title>
 <!-- 引入css样式，引入的地址通过spring-mvc.xml配置文件中进行静态资源的配置，
-		将/resource/assets/css/配置到/css/**
-		将/resource/assets/plugin/配置到/plugin/**
+		将/resources/assets/css/配置到/css/**
+		将/resources/assets/plugin/配置到/plugin/**
 	-->
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet"
@@ -130,6 +130,119 @@
 			</div>
 		</div>
 		<!-- 左侧区域 end -->
+
+		<%--博客主体-右侧侧边栏 start--%>
+		<div id="sidebar" class="widget-area all-sidebar"
+			style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+
+			<%--关于本站 start--%>
+			<aside class="widget about">
+				<h3 class="widget-title">
+					<i class="fa fa-bars"></i>关于本站
+				</h3>
+				<div id="feed_widget">
+					<div class="feed-about">
+						<div class="about-main">
+							<div class="about-name">博客初心</div>
+							<div class="about-the">程序人生，永不止步</div>
+						</div>
+						<div class="clear"></div>
+						<div class="about-inf">
+							<span class="about-pn">文章 99 </span> <span class="about-cn">留言
+								99 </span>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</aside>
+			<%--关于本站 start--%>
+
+			<%--网站概况 start--%>
+			<aside id="php_text-22" class="widget php_text">
+				<h3 class="widget-title">网站概况</h3>
+				<div class="textwidget widget-text">
+					<ul class="site-profile">
+						<li><i class="fa fa-file-o"></i> 文章总数：99 篇</li>
+						<li><i class="fa fa-commenting-o"></i> 留言数量：99 条</li>
+						<li><i class="fa fa-folder-o"></i> 分类数量：99 个</li>
+						<li><i class="fa fa-tags"></i> 标签总数：99 个</li>
+						<li><i class="fa fa-link"></i> 链接数量：99 个</li>
+						<li><i class="fa fa-eye"></i> 浏览总量：99 次</li>
+						<%-- <li><i class="fa fa-pencil-square-o"></i> 最后更新： <span
+							style="color: #2F889A"> <fmt:formatDate value="2019年9月30日"
+									pattern="yyyy年MM月dd日" />
+
+						</span></li> --%>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</aside>
+			<%--网站概况 end--%>
+
+			<%--所有标签 start--%>
+			<aside class="widget">
+				<h3 class="widget-title">所有标签</h3>
+				<div class="tagcloud">
+					<a href="#" class="tag-link-129 tag-link-position-1"
+						style="font-size: 14px;"> Java </a> <a href="#"
+						class="tag-link-129 tag-link-position-1" style="font-size: 14px;">
+						数据结构 </a> <a href="#" class="tag-link-129 tag-link-position-1"
+						style="font-size: 14px;"> 算法 </a>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</aside>
+			<%--所有标签 end--%>
+
+
+			<%--最新评论 start--%>
+			<aside id="recent_comments-2"
+				class="widget recent_comments wow fadeInUp" data-wow-delay="0.3s">
+				<h3 class="widget-title">近期评论</h3>
+				<div id="message" class="message-widget">
+					<ul>
+						<li style="border: none;"><a href="#" rel="external nofollow">
+								<span class="comment_author"> <strong>第一条评论</strong>
+							</span> 大家好
+						</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</aside>
+			<%--最新评论 end--%>
+
+		</div>
+		<%--博客主体-右侧侧边栏 end--%>
+
+		<%--友情链接 start--%>
+		<!-- <div class="links-box">
+			<div id="links">
+				<ul class="lx7">
+					<li class="link-f link-name"><a href="www.baidu.com"
+						target="_blank"> Baidu </a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div> -->
+		<%--友情链接 end--%>
+		<div class="clear"></div>
+
+
+		<%--页脚 start--%>
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="site-info">
+				<p style="text-align: center;">
+					Copyright © 2017 <a href="/" target="_blank"
+						rel="noopener noreferrer">风吟博客</a> All
+					rights reserved. <a target="_blank" href="#"> <span
+						class="font-text">站点地图</span>
+					</a>
+				</p>
+			</div>
+			<!-- .site-info -->
+		</footer>
+		<!-- .site-footer -->
+		<%--页脚 end--%>
 	</div>
 	<div class="clear"></div>
 

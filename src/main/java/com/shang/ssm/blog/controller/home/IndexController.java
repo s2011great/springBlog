@@ -1,4 +1,4 @@
-package com.shang.ssm.blog.controller;
+package com.shang.ssm.blog.controller.home;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.*;
 public class IndexController {
 	@RequestMapping(value="/")
 	public String index() {
-		return "index";
+		return "home/index";
 	}
 }
